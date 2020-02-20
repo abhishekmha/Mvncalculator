@@ -21,7 +21,7 @@
 					<dependencyLocationsEnabled>false</dependencyLocationsEnabled>
 				</configuration>
 			</plugin>
-			<plugin>
+			<!--<plugin>
 		<groupId>org.jacoco</groupId>
 		<artifactId>jacoco-maven-plugin</artifactId>
 		<version>0.8.2</version>
@@ -32,7 +32,7 @@
 				</goals>
 			</execution>
 			<!-- attached to Maven test phase -->
-			<execution>
+		<!--	<execution>
 				<id>report</id>
 				<phase>test</phase>
 				<goals>
@@ -40,10 +40,10 @@
 				</goals>
 			</execution>
 		</executions>
-	</plugin>
+	</plugin> -->
 
 
-			<!--<plugin>
+			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>cobertura-maven-plugin</artifactId>
 				<version>2.6</version>
@@ -53,7 +53,7 @@
 						<format>xml</format>
 					</formats>
 				</configuration>
-			</plugin> -->
+			</plugin> 
 <plugin>
 				<artifactId>maven-war-plugin</artifactId>
 				<version>3.2.2</version>
